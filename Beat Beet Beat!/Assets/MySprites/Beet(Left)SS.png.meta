@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 3f6504a67f78f954c8abadf59aca8e13
-timeCreated: 1472329924
+timeCreated: 1472330335
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Beet(Left)SS_0
+    21300002: Beet(Left)SS_1
+    21300004: Beet(Left)SS_2
+    21300006: Beet(Left)SS_3
+    21300008: Beet(Left)SS_4
+    21300010: Beet(Left)SS_5
+    21300012: Beet(Left)SS_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +45,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +56,164 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Beet(Left)SS_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -50}
+        - {x: 29, y: -50}
+        - {x: 29, y: 50}
+        - {x: -29, y: 50}
+        - {x: -29, y: 29}
+        - {x: -23, y: 25}
+        - {x: -18, y: 23}
+        - {x: -15, y: 23}
+        - {x: -17, y: 23}
+        - {x: -21, y: 21}
+        - {x: -29, y: -2}
+        - {x: -29, y: -26}
+        - {x: -27, y: -47}
+        - {x: -25, y: -50}
+        - {x: -15, y: -50}
+        - {x: -14, y: -49}
+        - {x: 4, y: -47}
+        - {x: 6, y: -45}
+    - name: Beet(Left)SS_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 50}
+        - {x: -31, y: -33}
+        - {x: -27, y: -50}
+        - {x: 31, y: -50}
+        - {x: 31, y: 33}
+        - {x: 28, y: 50}
+    - name: Beet(Left)SS_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 50}
+        - {x: -35, y: 48}
+        - {x: -35, y: -26}
+        - {x: -15, y: -50}
+        - {x: 14, y: -50}
+        - {x: 35, y: -27}
+        - {x: 35, y: 13}
+        - {x: 29, y: 50}
+    - name: Beet(Left)SS_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 50}
+        - {x: -16.5, y: 50}
+        - {x: -37.5, y: 46}
+        - {x: -31.5, y: 31}
+        - {x: -23.5, y: 25}
+        - {x: -18.5, y: 23}
+        - {x: -15.5, y: 23}
+        - {x: -17.5, y: 23}
+        - {x: -20.5, y: 20}
+        - {x: -38.5, y: -1}
+        - {x: -38.5, y: -11}
+        - {x: -20.5, y: -50}
+        - {x: 12.5, y: -50}
+        - {x: 38.5, y: -34}
+        - {x: 38.5, y: 15}
+        - {x: 26.5, y: 49}
+    - name: Beet(Left)SS_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 50}
+        - {x: -35, y: 48}
+        - {x: -35, y: -26}
+        - {x: -15, y: -50}
+        - {x: 14, y: -50}
+        - {x: 35, y: -27}
+        - {x: 35, y: 13}
+        - {x: 29, y: 50}
+    - name: Beet(Left)SS_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 50}
+        - {x: -31, y: -33}
+        - {x: -27, y: -50}
+        - {x: 31, y: -50}
+        - {x: 31, y: 33}
+        - {x: 28, y: 50}
+    - name: Beet(Left)SS_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -50}
+        - {x: 29, y: -50}
+        - {x: 29, y: 50}
+        - {x: -29, y: 50}
+        - {x: -29, y: 29}
+        - {x: -23, y: 25}
+        - {x: -18, y: 23}
+        - {x: -15, y: 23}
+        - {x: -17, y: 23}
+        - {x: -21, y: 21}
+        - {x: -29, y: -2}
+        - {x: -29, y: -26}
+        - {x: -27, y: -47}
+        - {x: -25, y: -50}
+        - {x: -15, y: -50}
+        - {x: -14, y: -49}
+        - {x: 4, y: -47}
+        - {x: 6, y: -45}
     outline: []
   spritePackingTag: 
   userData: 
