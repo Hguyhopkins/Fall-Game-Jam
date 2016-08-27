@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
 
     public float health = 100;
 
@@ -11,7 +12,8 @@ public class Enemy : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	
 	}
 
@@ -19,6 +21,11 @@ public class Enemy : MonoBehaviour {
     {
         get { return health; }
         set { health = value; }
+    }
+
+    public virtual void Move()
+    {
+
     }
 
 }
