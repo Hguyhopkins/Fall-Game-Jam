@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour {
     {
         if (coll.transform.CompareTag("Floor"))
         {
-            Debug.Log("CRANBERRIES");
             isJumping = false;
         }
     }
