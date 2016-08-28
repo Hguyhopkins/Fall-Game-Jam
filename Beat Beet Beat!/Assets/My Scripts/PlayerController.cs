@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public bool right = false;
 
     public bool swinging = false;
+    public bool isAttacking = false;
 
     private Animator anim;
 
@@ -77,16 +78,19 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("attackLeft", false);
             anim.SetBool("attackRight", false);
+            isAttacking = false;
         }
 
         if (Input.GetMouseButton(0) && left)
         {
             anim.SetBool("attackLeft", true);
+            isAttacking = true;
         }
 
         if (Input.GetMouseButton(0) && right)
         {
             anim.SetBool("attackRight", true);
+            isAttacking = true;
         }
     }
 

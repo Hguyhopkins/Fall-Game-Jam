@@ -6,6 +6,7 @@ public class Apple : Enemy
     public GameObject player;
 
     public bool chasing = false;
+    public bool whack = false;
 
     private Animator anim;
 
@@ -23,6 +24,11 @@ public class Apple : Enemy
         if(!chasing)
         {
             anim.SetInteger("isMoving", 0);
+        }
+
+        if(player.GetComponent<PlayerController>().isAttacking && whack)
+        {
+            gameObject.SetActive(false);
         }
 	}
 
@@ -57,6 +63,22 @@ public class Apple : Enemy
         if(other.tag == "Player")
         {
             chasing = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            whack = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            whack = false;
         }
     }
 }
