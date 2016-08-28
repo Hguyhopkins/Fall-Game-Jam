@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
     private float goalTime = 3.0f;
     private bool isHurting = false;
 
+    public AudioSource deathKnell;
+    public AudioClip dead;
+
     private Animator anim;
 
 	// Use this for initialization
@@ -41,10 +44,12 @@ public class PlayerController : MonoBehaviour
             {
                 Timer += Time.deltaTime;
             }
-            else
+            else if(goalTime < Timer)
             {
                 health -= 10;
                 Timer = 0;
+                deathKnell.PlayOneShot(dead, 1);
+                isHurting = false;
             }
         }
 
