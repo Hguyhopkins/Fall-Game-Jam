@@ -48,13 +48,16 @@
      <Compile Include="Assets\Artichoke.cs" />
      <Compile Include="Assets\BasicLerp.cs" />
      <Compile Include="Assets\FollowMe.cs" />
+     <Compile Include="Assets\LevelHandler.cs" />
      <Compile Include="Assets\LimaDog.cs" />
+     <Compile Include="Assets\MenuHandler.cs" />
      <Compile Include="Assets\My Scripts\Apple.cs" />
      <Compile Include="Assets\My Scripts\Cyclapple.cs" />
      <Compile Include="Assets\My Scripts\Enemy.cs" />
      <Compile Include="Assets\My Scripts\EnemyHandler.cs" />
      <Compile Include="Assets\My Scripts\FruitFly.cs" />
      <Compile Include="Assets\My Scripts\PlayerController.cs" />
+     <Compile Include="Assets\QuitGame.cs" />
      <Compile Include="Assets\SeedScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
