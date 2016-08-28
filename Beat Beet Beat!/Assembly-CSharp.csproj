@@ -55,6 +55,7 @@
      <Compile Include="Assets\My Scripts\EnemyHandler.cs" />
      <Compile Include="Assets\My Scripts\FruitFly.cs" />
      <Compile Include="Assets\My Scripts\PlayerController.cs" />
+     <Compile Include="Assets\SeedScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

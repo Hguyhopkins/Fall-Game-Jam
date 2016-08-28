@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public int health = 100;
     public float speed;
 
     private Rigidbody2D rb;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         float hor = Input.GetAxisRaw("Horizontal");
         if (!isJumping && GetComponent<Rigidbody2D>().velocity.y < 1 && Input.GetAxisRaw("Vertical") > 0)
         { 
-            GetComponent<Rigidbody2D>().AddForce(transform.up * 250);
+            GetComponent<Rigidbody2D>().AddForce(transform.up * 300);
             isJumping = true;
         }
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) //left
