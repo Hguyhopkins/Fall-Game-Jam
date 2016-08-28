@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: efcdf29f0937b734b82059e653f962a7
-timeCreated: 1472361721
+timeCreated: 1472378631
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Beet(AttackRight)_0
+    21300002: Beet(AttackRight)_1
+    21300004: Beet(AttackRight)_2
+    21300006: Beet(AttackRight)_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,83 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Beet(AttackRight)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 50}
+        - {x: -35.5, y: 50}
+        - {x: -35.5, y: -50}
+        - {x: 26.5, y: -50}
+        - {x: 35.5, y: -30}
+        - {x: 35.5, y: 36}
+        - {x: 32.5, y: 45}
+    - name: Beet(AttackRight)_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 46}
+        - {x: 19, y: 50}
+        - {x: -34, y: 50}
+        - {x: -39, y: 48}
+        - {x: -42, y: 29}
+        - {x: -42, y: -38}
+        - {x: -34, y: -50}
+        - {x: 26, y: -50}
+        - {x: 42, y: 9}
+        - {x: 42, y: 28}
+    - name: Beet(AttackRight)_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 50}
+        - {x: -47, y: -50}
+        - {x: 39, y: -50}
+        - {x: 47, y: -34}
+        - {x: 47, y: 22}
+        - {x: 15, y: 50}
+    - name: Beet(AttackRight)_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 79
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 50}
+        - {x: -31.5, y: 50}
+        - {x: -36.5, y: 48}
+        - {x: -39.5, y: 29}
+        - {x: -39.5, y: -38}
+        - {x: -31.5, y: -50}
+        - {x: 39.5, y: -50}
+        - {x: 39.5, y: 18}
+        - {x: 30.5, y: 46}
     outline: []
   spritePackingTag: 
   userData: 
