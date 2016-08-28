@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Artichoke.cs" />
      <Compile Include="Assets\BasicLerp.cs" />
      <Compile Include="Assets\FollowMe.cs" />
      <Compile Include="Assets\LimaDog.cs" />
