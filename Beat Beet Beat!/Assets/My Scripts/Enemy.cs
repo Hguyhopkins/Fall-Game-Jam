@@ -7,7 +7,8 @@ public class Enemy : MonoBehaviour
     public float health = 100;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         
 	}
 	
@@ -27,5 +28,6 @@ public class Enemy : MonoBehaviour
     {
 
     }
+
 
 }
