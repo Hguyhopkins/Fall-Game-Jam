@@ -11,6 +11,11 @@ public class PlayerController : MonoBehaviour
 
     public bool isLeft, isRight;
 
+    public bool left = false;
+    public bool right = false;
+
+    public bool swinging = false;
+
     private Animator anim;
 
 	// Use this for initialization
@@ -36,6 +41,10 @@ public class PlayerController : MonoBehaviour
             anim.SetInteger("isMoving", 2);
             isLeft = true;
             isRight = false;
+
+            left = true;
+            right = false;
+            
         }
 
         else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))) //right
@@ -43,6 +52,9 @@ public class PlayerController : MonoBehaviour
             anim.SetInteger("isMoving", 1);
             isRight = true;
             isLeft = false;
+
+            left = false;
+            right = true;
         }
 
         else
@@ -51,7 +63,32 @@ public class PlayerController : MonoBehaviour
         }
 
         transform.Translate(hor * speed * Time.deltaTime, 0, 0);
-	}
+
+        if(Input.GetMouseButton(0))
+        {
+            swinging = true;
+        }
+        else
+        {
+            swinging = false;
+        }
+
+        if(!swinging)
+        {
+            anim.SetBool("attackLeft", false);
+            anim.SetBool("attackRight", false);
+        }
+
+        if (Input.GetMouseButton(0) && left)
+        {
+            anim.SetBool("attackLeft", true);
+        }
+
+        if (Input.GetMouseButton(0) && right)
+        {
+            anim.SetBool("attackRight", true);
+        }
+    }
 
     void OnCollisionEnter2D(Collision2D coll)
     {
