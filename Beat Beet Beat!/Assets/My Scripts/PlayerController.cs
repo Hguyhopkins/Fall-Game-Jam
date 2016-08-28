@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
     public bool swinging = false;
     public bool isAttacking = false;
 
+    private float Timer = 0.0f;
+    private float goalTime = 3.0f;
+    private bool isHurting = false;
+
     private Animator anim;
 
 	// Use this for initialization
@@ -31,6 +35,19 @@ public class PlayerController : MonoBehaviour
 	void Update ()
     {
         
+        if(isHurting)
+        {
+            if(goalTime > Timer)
+            {
+                Timer += Time.deltaTime;
+            }
+            else
+            {
+                health -= 10;
+                Timer = 0;
+            }
+        }
+
         float hor = Input.GetAxisRaw("Horizontal");
         if (!isJumping && GetComponent<Rigidbody2D>().velocity.y < 1 && Input.GetAxisRaw("Vertical") > 0)
         { 
@@ -99,6 +116,20 @@ public class PlayerController : MonoBehaviour
         if (coll.transform.CompareTag("Floor"))
         {
             isJumping = false;
+        }
+
+        if (coll.gameObject.tag == "Enemy")
+        {
+            isHurting = true;
+        }
+
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            isHurting = false;
         }
     }
 }
