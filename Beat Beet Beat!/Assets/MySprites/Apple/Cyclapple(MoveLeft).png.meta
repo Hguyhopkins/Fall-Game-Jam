@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 3978dccc92c61e444843431ea883d365
+timeCreated: 1472361884
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cyclapple(MoveLeft)_0
+    21300002: Cyclapple(MoveLeft)_1
+    21300004: Cyclapple(MoveLeft)_2
+    21300006: Cyclapple(MoveLeft)_3
+    21300008: Cyclapple(MoveLeft)_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cyclapple(MoveLeft)_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 47}
+        - {x: -33.5, y: 33}
+        - {x: -47.5, y: 15}
+        - {x: -47.5, y: -27}
+        - {x: -21.5, y: -47}
+        - {x: 28.5, y: -47}
+        - {x: 47.5, y: -21}
+        - {x: 47.5, y: 16}
+        - {x: 27.5, y: 47}
+    - name: Cyclapple(MoveLeft)_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -47}
+        - {x: 28.5, y: -47}
+        - {x: 44.5, y: -22}
+        - {x: 44.5, y: 36}
+        - {x: 30.5, y: 47}
+        - {x: -24.5, y: 47}
+        - {x: -25.5, y: 46}
+        - {x: -44.5, y: 11}
+        - {x: -44.5, y: -21}
+        - {x: -17.5, y: -47}
+        - {x: -1.5, y: -47}
+        - {x: -0.5, y: -46}
+        - {x: -0.5, y: -42}
+        - {x: -0.5, y: -43}
+    - name: Cyclapple(MoveLeft)_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 47}
+        - {x: -17, y: 47}
+        - {x: -39, y: 38}
+        - {x: -39, y: -27}
+        - {x: -31, y: -47}
+        - {x: 27, y: -47}
+        - {x: 39, y: -30}
+        - {x: 39, y: 19}
+        - {x: 25, y: 38}
+    - name: Cyclapple(MoveLeft)_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 46.5}
+        - {x: -35, y: 26.5}
+        - {x: -35, y: -46.5}
+        - {x: 35, y: -46.5}
+        - {x: 35, y: 39.5}
+        - {x: 21, y: 46.5}
+    - name: Cyclapple(MoveLeft)_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 47}
+        - {x: -17, y: 47}
+        - {x: -39, y: 38}
+        - {x: -39, y: -27}
+        - {x: -31, y: -47}
+        - {x: 27, y: -47}
+        - {x: 39, y: -30}
+        - {x: 39, y: 19}
+        - {x: 25, y: 38}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
