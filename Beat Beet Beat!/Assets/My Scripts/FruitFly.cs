@@ -6,6 +6,7 @@ public class FruitFly : Enemy
     public GameObject player;
 
     public bool chasing = false;
+    public bool whack = false;
 
 	// Use this for initialization
 	void Start ()
@@ -17,7 +18,12 @@ public class FruitFly : Enemy
 	void Update ()
     {
         Move();
-	}
+
+        if (player.GetComponent<PlayerController>().isAttacking && whack)
+        {
+            gameObject.SetActive(false);
+        }
+    }
 
     public override void Move()
     {
@@ -40,6 +46,22 @@ public class FruitFly : Enemy
         if (other.tag == "Player")
         {
             chasing = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            whack = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            whack = false;
         }
     }
 }

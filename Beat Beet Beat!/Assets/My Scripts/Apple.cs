@@ -9,13 +9,11 @@ public class Apple : Enemy
     public bool whack = false;
 
     private Animator anim;
-    private SpriteRenderer rend;
 
 	// Use this for initialization
 	void Start ()
     {
         anim = GetComponent<Animator>();
-        rend = GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
