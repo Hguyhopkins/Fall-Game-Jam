@@ -48,6 +48,7 @@
      <Compile Include="Assets\Artichoke.cs" />
      <Compile Include="Assets\BasicLerp.cs" />
      <Compile Include="Assets\FollowMe.cs" />
+     <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\LevelHandler.cs" />
      <Compile Include="Assets\LimaDog.cs" />
      <Compile Include="Assets\MenuHandler.cs" />
