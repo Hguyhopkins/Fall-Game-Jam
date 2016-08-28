@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private bool isJumping = false;
 
+    public bool isLeft, isRight;
+
     private Animator anim;
 
 	// Use this for initialization
@@ -32,11 +34,15 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) //left
         {
             anim.SetInteger("isMoving", 2);
+            isLeft = true;
+            isRight = false;
         }
 
         else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))) //right
         {
             anim.SetInteger("isMoving", 1);
+            isRight = true;
+            isLeft = false;
         }
 
         else

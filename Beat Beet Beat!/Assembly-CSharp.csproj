@@ -45,6 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BasicLerp.cs" />
+     <Compile Include="Assets\FollowMe.cs" />
+     <Compile Include="Assets\LimaDog.cs" />
      <Compile Include="Assets\My Scripts\Apple.cs" />
      <Compile Include="Assets\My Scripts\Enemy.cs" />
      <Compile Include="Assets\My Scripts\EnemyHandler.cs" />
